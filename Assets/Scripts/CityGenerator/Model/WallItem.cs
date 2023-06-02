@@ -29,7 +29,7 @@ namespace CityGen.MenuItem
 
         public Neighbour SelectNeighbour(int floor)
         {
-
+            Debug.Log(neighbours.Count);
             List<Neighbour> list = neighbours.Where(l => l.item.floorCap == 0 || l.item.floorCap == floor).ToList();
 
             float max = 0;

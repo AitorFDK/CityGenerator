@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aff0b6d507953343877a85886411b52, type: 3}
+  m_Name: basic_wall_001
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6753035917373482178, guid: ec3154753c115384c8dca15ac06c1c26, type: 3}
+  type: 0
+  floorCap: 0
+  neighbours:
+  - item: {fileID: 11400000}
+    probability: 0
+  - item: {fileID: 11400000, guid: 5d76bfa0f794bc5498b4c60c9d511a0e, type: 2}
+    probability: 0
+  - item: {fileID: 11400000, guid: af6a158a7c650224892d71dd8c703dde, type: 2}
+    probability: 0
+  - item: {fileID: 11400000, guid: 5ef60ade0b17f524bb5ddc13df7868ae, type: 2}
+    probability: 0
+  - item: {fileID: 11400000, guid: 2e7b4ee9b0428984db10e8cf0ea00d94, type: 2}
+    probability: 0

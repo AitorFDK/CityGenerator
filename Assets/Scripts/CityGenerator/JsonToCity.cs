@@ -228,12 +228,6 @@ namespace CityGen
                                         break;
                                 }
 
-                                // yield return new WaitForEndOfFrame();
-                                // if (relativeToThis)
-                                // {
-                                //     house.gameObject.transform.position += thisPosition;
-                                // }
-
                                 houseList.Add(house);
 
                                 // --------------- RENDER PARCELA ------------------ //
